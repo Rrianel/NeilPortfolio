@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Minimal, responsive portfolio showcasing resume and projects." />
+    <title>Neil Portfolio</title>
+    <link rel="icon" href="uploads/41_m.jpg" type="image/jpeg" />
+    <link rel="apple-touch-icon" href="uploads/41_m.jpg" />
+    <meta name="theme-color" content="#071124" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Home">
+            <span class="brand-mark" aria-hidden="true">
+            <img src="uploads/41_m.jpg" alt="Portfolio logo" onerror="this.onerror=null;this.src='uploads/Picture1.png'" />
+          </span>
+          <span class="brand-text">Portfolio</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="sr-only">Open menu</span>
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+          </button>
+
+          <ul class="nav-menu" id="nav-menu">
+            <li><a class="nav-link" href="#home" aria-current="page">Home</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#certificates">Certificates</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <a class="btn btn-contact" href="#contact">Contact Me</a>
+          </div>
+        </nav>
+            
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <div class="avatar-row">
+              <div class="avatar-display">
+                <div class="avatar" aria-hidden="false">
+                  <img id="avatarImg" class="avatar-img" alt="Profile image" src="uploads/Picture1.png" onerror="this.onerror=null;this.src='uploads/Picture1.jpg'" />
+                </div>
+      
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-aside">
+            <p class="kicker">IT Support</p>
+            <h1 class="hero-title">
+              Sherneil Fhel <span class="hero-name-accent">B. Rosaceña</span>
+            </h1>
+            
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            </div>
+
+            <div class="hero-card panel summary-card">
+              <h3 class="card-title">Professional Summary</h3>
+              <p style="color:var(--muted);margin-top:6px;margin-bottom:12px;">Web systems developer (entry-level) &amp; IT Support</p>
+
+              <div class="two-col" style="gap:12px;">
+                <div>
+                  <h4 style="margin:0 0 8px;">AI Integration</h4>
+                  <p class="project-desc">Specialize in creating intelligent applications that leverage artificial intelligence to solve real-world problems.</p>
+                </div>
+                <div>
+                  <h4 style="margin:0 0 8px;">Modern Solutions</h4>
+                  <p class="project-desc">Experienced in building smart web solutions using modern tools and frameworks to enhance user experience.</p>
+                </div>
+              </div>
+
+              <ul class="bullets" style="margin-top:12px;">
+                <li>Open to opportunities</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p>
+              With my past working experience, I aim to grow in a position where I can apply my background in customer relations, problem resolution, and communication, along with hands-on experience in web development and IT support. Skilled in PHP, JavaScript, HTML, CSS, MySQL, and Git, I seek to contribute to team productivity and organizational success.
+            </p>
+          </div>
+
+          <div class="two-col">
+            <div class="panel">
+              <h3>Technical Skills</h3>
+              <ul class="tags" aria-label="Skills">
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>Git</li>
+                <li>Basic Networking</li>
+              </ul>
+            </div>
+
+            <div class="panel features-grid">
+              <h3>What I focus on</h3>
+              <div class="features">
+                <div class="feature-card">
+                  <h4>Clean Code</h4>
+                  <p>Write maintainable, readable code with clear structure and comments.</p>
+                </div>
+                <div class="feature-card">
+                  <h4>Performance</h4>
+                  <p>Optimize for speed and efficient resource usage in web systems.</p>
+                </div>
+                <div class="feature-card">
+                  <h4>Collaboration</h4>
+                  <p>Work closely with team members and stakeholders to deliver results.</p>
+                </div>
+                <div class="feature-card">
+                  <h4>Innovation</h4>
+                  <p>Explore new tools and approaches to improve user experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-head">
+            <h2>Experience</h2>
+            <p>A timeline of my practical work and roles.</p>
+          </div>
+
+          <ol class="timeline">
+            <li>
+              <div class="timeline-row">
+                <div class="timeline-card panel">
+                  <div class="timeline-date">2022 — Present</div>
+                  <h4>IT Intern (OJT) — St. Thomas Aquinas School of Lawaan Montessori</h4>
+                  <p>Developed STAS-M system for managing student records using PHP and MySQL. Provided technical support and maintained IT systems.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-row">
+                <div class="timeline-card panel">
+                  <div class="timeline-date">2024 — 2025</div>
+                  <h4>Service Crew — Jollibee Lawaan 1</h4>
+                  <p>Worked in a customer-facing role while developing time-management and teamwork skills.</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <div class="section-head">
+            <h2>Kind words from amazing people</h2>
+            <p>What people say about working with me.</p>
+          </div>
+
+          <div class="testimonials">
+            <div class="card testimonial-card">
+              <div class="testimonial-inner">
+                <img class="testimonial-avatar" src="uploads/41_m.jpg" alt="Team Lead photo" onerror="this.onerror=null;this.src='uploads/Picture1.png'" />
+                <div class="testimonial-body">
+                  <blockquote class="quote">"Working with Sherneil was a game-changer for our project. He delivered thoughtful, maintainable solutions ahead of schedule."</blockquote>
+                  <div class="cite">
+                    <strong>Hannah Mae</strong>
+                    <div class="muted">Product Manager, Digital Solutions</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p>Selected academic and practical work.</p>
+          </div>
+
+          <div class="project-grid" role="list">
+            <!-- Archiflow project removed per user request -->
+            
+            <article class="project" role="listitem">
+              <header class="project-head">
+                <h3 class="project-title">Capstone Project</h3>
+                <div class="project-subtitle">SMARTLIGHT: SMART CAMPUS LIGHT CONTROLLER SYSTEM</div>
+              </header>
+              <div class="project-thumb" aria-hidden="false" style="display:flex;gap:8px;">
+                <a class="project-thumb-link" href="#" onclick="openLightboxFor('uploads/Certificate.jpg');return false;" aria-label="View capstone certificate">
+                  <img src="uploads/Certificate.jpg" alt="capstone certificate" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" />
+                </a>
+                <a class="project-thumb-link" href="#" onclick="openLightboxFor('uploads/Our%20Prototype.jpg');return false;" aria-label="View prototype screenshot">
+                  <img src="uploads/Our%20Prototype.jpg" alt="capstone prototype screenshot" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" />
+                </a>
+                <a class="project-thumb-link" href="#" onclick="openLightboxFor('uploads/Research%20Paper.png');return false;" aria-label="View capstone cover page">
+                  <img src="uploads/Research Paper.png" alt="capstone cover page" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" />
+                </a>
+              </div>
+              <p class="project-desc">
+                Prototype interface and research documentation for a campus lighting controller. Code and internal data are confidential; the site shows sanitized screenshots and a short summary below.
+              </p>
+              <ul class="project-meta">
+                <li><span>Role</span> UI & backend implementation, scheduling flows</li>
+                <li><span>Tech</span> PHP • MySQL • JavaScript • PHPMailer</li>
+                <li><span>Outcome</span> Working prototype demonstrated in class; scheduling and notification flows validated</li>
+              </ul>
+              <div class="project-links">
+                <a class="inline-link" href="uploads/SMARTHLIGHT-SMART-CAMPUS-LIGHT-CONTROLLER-SYSTEM.pdf" download>Download Project PDF</a>
+                <a class="inline-link" href="uploads/CapstonePrototype.zip" download>Download Prototype (private)</a>
+              </div>
+              <p class="muted" style="margin-top:10px">Note: full source is confidential. Contact me for a sanitized code walkthrough or demo.</p>
+            </article>
+
+            <article class="project" role="listitem">
+              <header class="project-head">
+                <h3 class="project-title">STAS-M Student System Management</h3>
+              </header>
+              <div class="project-thumb" aria-hidden="false" style="display:flex;gap:8px;align-items:center;">
+                <a href="#" onclick="openSTASGallery();return false;" aria-label="Open STAS-M screenshots slideshow">
+                  <img src="uploads/Login Form.png" alt="Login Form.png" style="width:280px;height:440px;object-fit:contain;border-radius:8px;" />
+                </a>
+                
+              </div>
+              <p class="project-desc">
+                Enables administrators to manage student records, including registration,
+                updating profiles, and tracking academic information with a searchable database
+                and user-friendly interface.
+              </p>
+              <ul class="project-meta">
+                <li><span>Stack</span> PHP • MySQL • JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a class="inline-link" href="#">Documentation (available upon request)</a>
+              </div>
+              <p class="muted" style="margin-top:10px">Note: full source is confidential. Contact me for a sanitized code walkthrough or demo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="container">
+          <div class="section-head">
+            <h2>Certificates</h2>
+            <p>Verified certificates and deployment records that demonstrate practical skills and real project experience. Click any thumbnail to view the full certificate or download it from the <code>uploads/</code> folder.</p>
+          </div>
+
+          <div id="certificatesGrid" class="certificates-grid">
+            <div class="muted">No certificates yet — add entries to the <code>#certificates-config</code> JSON in this page, or upload files to <code>uploads/</code> and I can add them.</div>
+          </div>
+
+          <script type="application/json" id="certificates-config">[
+            {
+              "title": "Certificate of System",
+              "issuer": "",
+              "date": "",
+              "file": "uploads/Certicates%20of%20System.png"
+            },
+            {
+              "title": "Certificate of Deployment",
+              "issuer": "",
+              "date": "",
+              "file": "uploads/Certificates%20of%20deployment.jpg"
+            },
+            {
+              "title": "Similarity Index",
+              "issuer": "",
+              "date": "",
+              "file": "uploads/Certificate%20of%20Similarity%20Index.jpg"
+            }
+          ]</script>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container">
+          <div class="section-head">
+            <h2>Resume</h2>
+            <p>Compact, scannable summary. Add a PDF link if you have one.</p>
+          </div>
+
+          <div class="resume-grid">
+            <div class="panel">
+              <div class="resume-top">
+                <div>
+                  <h3 class="resume-name">Sherneil Fhel B. Rosaceña</h3>
+                  <p class="resume-role">IT Support</p>
+                </div>
+                <div class="resume-actions">
+                  <a class="btn btn-small" href="resume.html" target="_blank" rel="noopener">View Full Resume</a>
+                  <a class="btn btn-small" href="uploads/FinalCVNEIL.pdf" download>Download PDF</a>
+                </div>
+              </div>
+
+              <div class="resume-block">
+                <h4>Experience</h4>
+                <ol class="timeline">
+                  <li>
+                    <div class="timeline-row">
+                      <span class="timeline-title">IT Intern (OJT) — St. Thomas Aquinas School of Lawaan Montessori</span>
+                      <span class="timeline-date">January 2026 — May 2026</span>
+                    </div>
+                    <ul class="bullets">
+                      <li>Developed STAS-M system for managing student records using PHP and MySQL</li>
+                      <li>Provided technical support by troubleshooting hardware and software issues</li>
+                      <li>Assisted in installation, configuration, and maintenance of IT systems</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="timeline-row">
+                      <span class="timeline-title">Service Crew — Jollibee Lawaan 1</span>
+                      <span class="timeline-date">March 2024 — September 2025</span>
+                    </div>
+                    <ul class="bullets">
+                      <li>Worked in a fast-paced environment while maintaining quality and accuracy</li>
+                      <li>Cooperated with team members to achieve daily sales and service goals</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+
+              <div class="resume-block">
+                <h4>Education</h4>
+                <ul class="bullets">
+                  <li>Bachelor of Science in Information Technology — Cebu Technological University (Naga Extension) — Expected Graduation: June 19, 2026</li>
+                  <li>Senior High School (STEM) — Tabtuy, Tuyan City of Naga, Cebu (2021–2022)</li>
+                  <li>Primary — Tuyan Central Elementary School (2015–2016)</li>
+                </ul>
+              </div>
+            </div>
+
+            <aside class="panel">
+              <h3>Skills</h3>
+              <ul class="tags" aria-label="Resume skills">
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>Testing</li>
+                <li>CI/CD</li>
+                <li>Performance</li>
+                <li>Accessibility</li>
+              </ul>
+
+              <div class="spacer"></div>
+
+              <h3>Links</h3>
+              <ul class="link-list">
+                <li>
+                  <a class="inline-link" href="#" aria-disabled="true">GitHub</a>
+                </li>
+                <li>
+                  <a class="inline-link" href="#" aria-disabled="true">LinkedIn</a>
+                </li>
+                <li>
+                  <a class="inline-link" href="#" aria-disabled="true">Email</a>
+                </li>
+              </ul>
+
+              <p class="muted">
+                Tip: Replace the placeholder links above with your real URLs.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Let's build something great.</h2>
+            <p>Have a project in mind? Send a short message and I'll follow up.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-panel panel">
+              <h3>Contact Me</h3>
+              <p>If you'd like to get in touch, please email me directly at</p>
+              <p style="margin-top:8px;"><a class="inline-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=rosacenasherneilfhel@gmail.com" target="_blank" rel="noopener">rosacenasherneilfhel@gmail.com</a></p>
+              <p style="margin-top:12px;" class="muted">I usually reply within a few business days.</p>
+            </div>
+
+            <aside class="panel contact-info">
+              <h3>Contact Information</h3>
+              <table class="contact-table" aria-label="Contact information">
+                <tbody>
+                  <tr>
+                    <th>Email</th>
+                    <td><a class="inline-link" href="mailto:rosacenasherneilfhel@gmail.com">rosacenasherneilfhel@gmail.com</a></td>
+                  </tr>
+                  <tr>
+                    <th>Phone</th>
+                    <td>+63 930 044 9969</td>
+                  </tr>
+                  <tr>
+                    <th>Location</th>
+                    <td>Tuyan, City of Naga, Cebu</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div style="margin-top:18px" class="panel badge-soft">
+                <strong>Currently Available</strong>
+                <p class="muted">Open to internships and junior developer roles.</p>
+              </div>
+
+              <div class="fine-print" style="margin-top:18px;">
+                <span>© <span id="year"></span> Sherneil Fhel B. Rosaceña.</span>
+                <a class="inline-link" href="#top">Back to top</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
